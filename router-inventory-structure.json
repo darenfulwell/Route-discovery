@@ -1,0 +1,59 @@
+{
+	"device-ID": "",
+	"last-updated": "NEVER",
+	"interfaces": [{
+		"interface": "",
+		"description": "",
+		"ip-address": "",
+		"subnet": "",
+		"mask": "",
+		"statics": "",
+		"OSPF": "",
+		"EIGRP": ""
+	}],
+	"statics": [{
+		"subnet": "",
+		"mask": "",
+		"next-hop": ""
+	}],
+	"OSPF": [{
+		"process-ID": 0,
+		"router-ID": "",
+		"areas": [{
+			"area-number": 0,
+			"interfaces": [{
+				"name": "",
+				"status": "",
+				"neighbours": [{
+					"router-ID": "",
+					"next-hop": "",
+					"device-name": ""
+				}]
+			}]
+		}],
+		"redist": [{
+			"protocol": "",
+			"route-map": "",
+			"config": ""
+		}]
+	}],
+	"EIGRP": [{
+		"process-ID": "",
+		"AS-number": 0,
+		"router-ID": "",
+		"interfaces": [{
+			"name": "",
+			"status": "",
+			"neighbours": [{
+				"router-ID": "",
+				"next-hop": "",
+				"device-name": ""
+			}]
+		}],
+		"redist": [{
+			"protocol": "",
+			"route-map": "",
+			"config": ""
+		}]
+	}]
+}
