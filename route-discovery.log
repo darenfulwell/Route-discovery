@@ -1,0 +1,473 @@
+2019-05-03 23:53:48,883 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-03 23:53:48,884 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:53:48,885 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:53:48,887 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:53:48,887 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:53:49,981 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:53:58,772 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:53:59,968 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-03 23:55:52,803 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-03 23:55:52,804 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:55:52,805 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:55:52,806 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:55:52,806 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:55:53,915 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:56:02,694 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:56:04,053 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-03 23:56:49,219 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-03 23:56:49,219 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:56:49,220 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:56:49,222 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:56:49,223 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:56:50,330 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:56:59,116 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:57:00,358 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:11:46,023 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:11:46,023 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:11:46,024 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:11:46,026 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:11:46,026 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:11:47,145 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:11:55,928 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-04 00:11:57,914 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:27:38,966 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:27:38,969 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:27:38,969 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:27:38,971 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:27:38,971 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:27:40,091 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:27:48,873 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-04 00:27:50,971 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:29:12,596 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:29:12,597 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:29:12,599 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:29:12,601 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:29:12,601 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:29:13,723 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:29:26,796 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:29:26,797 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:30:29,955 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:30:29,956 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:30:29,958 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:30:29,961 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:30:29,961 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:30:31,067 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:30:44,165 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:30:44,167 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:31:21,174 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:31:21,175 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:31:21,175 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:31:21,177 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:31:21,177 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:31:22,284 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:31:35,351 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:31:35,353 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:35:07,888 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:35:07,889 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:35:07,890 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:35:07,890 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:35:07,891 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:35:08,998 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:35:22,063 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-04 00:35:22,065 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-04 00:37:12,543 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-04 00:37:12,543 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-04 00:37:12,544 - __main__ - INFO - Successfully retrieved router structure
+2019-05-04 00:37:12,546 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-04 00:37:12,546 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-04 00:37:38,081 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-04 00:37:42,262 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 12:18:58,289 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 12:18:58,289 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 12:18:58,290 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 12:18:58,292 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 12:18:58,292 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:19:19,298 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:19:40,309 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:19:40,309 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 12:20:01,324 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 12:20:22,343 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 12:20:22,343 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 12:41:38,560 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 12:41:38,560 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 12:41:38,561 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 12:41:38,562 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 12:41:38,563 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:41:59,574 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:42:20,583 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 12:42:20,584 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 20:27:51,536 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:27:51,538 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:27:51,540 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:27:51,543 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:27:51,544 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:28:12,554 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:28:33,561 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:30:09,792 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:30:09,794 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:30:09,797 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:30:09,801 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:30:09,802 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:30:30,832 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:30:51,842 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:37:55,212 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:37:55,213 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:37:55,213 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:37:55,214 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:37:55,214 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:38:16,240 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:38:37,256 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:38:37,264 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 20:40:59,856 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:40:59,856 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:40:59,857 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:40:59,858 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:40:59,858 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:41:20,877 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:41:41,889 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:41:41,893 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 20:42:28,586 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:42:28,587 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:42:28,587 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:42:28,589 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:42:28,589 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:42:49,608 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:43:10,627 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:43:10,628 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:43:31,650 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:43:52,658 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:43:52,667 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 20:52:36,825 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 20:52:36,827 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 20:52:36,829 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 20:52:36,830 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 20:52:36,830 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:52:57,850 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:53:18,861 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 20:53:18,863 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:53:39,890 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:54:00,903 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 20:54:00,925 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 21:03:08,015 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 21:03:29,559 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 21:04:10,239 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 21:04:10,239 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 21:04:10,240 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 21:04:10,241 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 21:04:10,241 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:04:31,248 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:04:52,258 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:04:52,260 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:05:13,291 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:05:34,307 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:06:15,128 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 21:06:15,129 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 21:06:15,129 - __main__ - INFO - Successfully retrieved router structure
+2019-05-06 21:06:15,131 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 21:06:15,131 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:06:36,148 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:06:57,164 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 21:06:57,165 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:07:18,186 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:07:39,196 - __main__ - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 21:07:39,197 - __main__ - INFO - Attempt write to route-discovery-19-05-06-2007.json
+2019-05-06 21:07:39,205 - __main__ - INFO - route-discovery-19-05-06-2007.json created.
+2019-05-06 21:07:39,964 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 22:01:13,579 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:01:40,846 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:01:40,847 - __main__ - INFO - Attempt read from route-discovery-19-05-06-1954.json
+2019-05-06 22:01:40,848 - __main__ - INFO - route-discovery-19-05-06-1954.json read.
+2019-05-06 22:01:40,848 - __main__ - INFO - route-discovery-19-05-06-1954.json not found.
+2019-05-06 22:01:41,309 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 22:03:12,721 - __main__ - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:03:12,722 - __main__ - INFO - Attempt read from route-discovery-19-05-06-1954.json
+2019-05-06 22:03:12,723 - __main__ - INFO - route-discovery-19-05-06-1954.json read.
+2019-05-06 22:03:13,183 - __main__ - INFO - ==== End route-discovery.py ====
+2019-05-06 22:06:59,020 - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:06:59,021 - INFO - Attempt read from route-discovery-19-05-06-1954.json
+2019-05-06 22:06:59,021 - INFO - route-discovery-19-05-06-1954.json read.
+2019-05-06 22:06:59,476 - INFO - ==== End route-discovery.py ====
+2019-05-06 22:19:46,191 - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:19:46,192 - INFO - No previously written file in directory
+2019-05-06 22:19:46,193 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 22:19:46,194 - INFO - Successfully retrieved router structure
+2019-05-06 22:19:46,196 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 22:19:46,196 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 22:20:07,219 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 22:20:28,226 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 22:20:28,227 - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 22:20:49,243 - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 22:21:10,260 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 22:21:10,261 - INFO - Attempt write to route-discovery-19-05-06-2121.json
+2019-05-06 22:21:10,270 - INFO - route-discovery-19-05-06-2121.json created.
+2019-05-06 22:21:11,048 - INFO - ==== End route-discovery.py ====
+2019-05-06 22:23:15,132 - INFO - ==== Start route-discovery.py ====
+2019-05-06 22:23:15,133 - INFO - Attempt read from route-discovery-19-05-06-2121.json
+2019-05-06 22:23:15,134 - INFO - route-discovery-19-05-06-2121.json read.
+2019-05-06 22:23:15,164 - INFO - ==== End route-discovery.py ====
+2019-05-06 23:21:34,609 - INFO - ==== Start route-discovery.py ====
+2019-05-06 23:21:34,610 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 23:21:34,612 - INFO - Successfully retrieved router structure
+2019-05-06 23:21:34,614 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 23:21:34,615 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:21:35,710 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:21:48,763 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:21:48,766 - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:21:49,867 - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:22:02,913 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:22:02,914 - INFO - Attempt write to route-discovery-19-05-06-2222.json
+2019-05-06 23:22:02,931 - INFO - route-discovery-19-05-06-2222.json created.
+2019-05-06 23:22:03,146 - INFO - ==== End route-discovery.py ====
+2019-05-06 23:39:52,359 - INFO - ==== Start route-discovery.py ====
+2019-05-06 23:39:52,361 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 23:39:52,361 - INFO - Successfully retrieved router structure
+2019-05-06 23:39:52,363 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 23:39:52,364 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:39:53,468 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:40:06,535 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-06 23:40:06,537 - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:40:07,638 - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:40:20,732 - WARNING - Failed to connect over Telnet to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-06 23:40:20,734 - INFO - Attempt write to route-discovery-19-05-06-2240.json
+2019-05-06 23:40:20,776 - INFO - route-discovery-19-05-06-2240.json created.
+2019-05-06 23:40:21,199 - INFO - ==== End route-discovery.py ====
+2019-05-06 23:44:09,763 - INFO - ==== Start route-discovery.py ====
+2019-05-06 23:44:09,764 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 23:44:09,765 - INFO - Successfully retrieved router structure
+2019-05-06 23:44:09,767 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 23:44:09,768 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:44:10,871 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:44:23,943 - WARNING - Failed to connect over Telnet to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:44:23,946 - INFO - Attempt write to route-discovery-19-05-06-2244.json
+2019-05-06 23:44:23,954 - INFO - route-discovery-19-05-06-2244.json created.
+2019-05-06 23:44:24,154 - INFO - ==== End route-discovery.py ====
+2019-05-06 23:44:57,240 - INFO - ==== Start route-discovery.py ====
+2019-05-06 23:44:57,241 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 23:44:57,242 - INFO - Successfully retrieved router structure
+2019-05-06 23:44:57,244 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 23:44:57,244 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:44:58,352 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:45:11,422 - WARNING - Failed to connect over Telnet to NTGH-A5-ASR-R3-78.102
+2019-05-06 23:45:11,424 - INFO - Attempt write to route-discovery-19-05-06-2245.json
+2019-05-06 23:45:11,434 - INFO - route-discovery-19-05-06-2245.json created.
+2019-05-06 23:45:11,630 - INFO - ==== End route-discovery.py ====
+2019-05-06 23:53:37,055 - INFO - ==== Start route-discovery.py ====
+2019-05-06 23:53:37,056 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-06 23:53:37,058 - INFO - Successfully retrieved router structure
+2019-05-06 23:53:37,059 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-06 23:53:37,060 - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-06 23:54:02,772 - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-06 23:54:05,979 - INFO - Attempt write to route-discovery-19-05-06-2254.json
+2019-05-06 23:54:05,991 - INFO - route-discovery-19-05-06-2254.json created.
+2019-05-06 23:54:07,316 - INFO - ==== End route-discovery.py ====
+2019-05-07 14:50:58,119 - INFO - ==== Start route-discovery.py ====
+2019-05-07 14:50:58,121 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 14:50:58,122 - INFO - Successfully retrieved router structure
+2019-05-07 14:50:58,123 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 14:50:58,123 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 14:50:59,211 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 14:51:07,984 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 14:51:09,212 - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-07 14:51:10,295 - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-07 14:51:19,065 - INFO - Successfully connected to NSECH-LV0-MER2-ASR-R2-78.101 over Telnet
+2019-05-07 14:51:20,376 - INFO - Attempt write to route-discovery-19-05-07-1351.json
+2019-05-07 14:51:20,381 - INFO - route-discovery-19-05-07-1351.json created.
+2019-05-07 14:51:20,767 - INFO - ==== End route-discovery.py ====
+2019-05-07 15:05:06,027 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:05:06,028 - INFO - Finding last route-discovery file
+2019-05-07 15:05:06,028 - INFO - Found route-discovery-19-05-07-1351.json
+2019-05-07 15:05:06,029 - INFO - Attempt read from route-discovery-19-05-07-1351.json
+2019-05-07 15:05:06,029 - INFO - route-discovery-19-05-07-1351.json read.
+2019-05-07 15:05:06,174 - INFO - ==== End route-discovery.py ====
+2019-05-07 15:22:02,706 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:22:02,707 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 15:22:02,707 - INFO - Successfully retrieved router structure
+2019-05-07 15:22:02,708 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 15:22:02,708 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:22:03,790 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:22:12,562 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 15:23:42,391 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:23:42,392 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 15:23:42,392 - INFO - Successfully retrieved router structure
+2019-05-07 15:23:42,393 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 15:23:42,393 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:23:43,476 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:23:52,249 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 15:47:24,289 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:47:24,289 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 15:47:24,289 - INFO - Successfully retrieved router structure
+2019-05-07 15:47:24,290 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 15:47:24,290 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:47:25,375 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:47:34,160 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 15:48:05,531 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:48:05,531 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 15:48:05,531 - INFO - Successfully retrieved router structure
+2019-05-07 15:48:05,532 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 15:48:05,532 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:48:06,619 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:48:15,390 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 15:48:41,902 - INFO - Attempting to connect to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-07 15:48:42,985 - WARNING - Failed to connect over SSH to NSECH-LV0-MER2-ASR-R2-78.101
+2019-05-07 15:48:51,766 - INFO - Successfully connected to NSECH-LV0-MER2-ASR-R2-78.101 over Telnet
+2019-05-07 15:48:59,836 - INFO - Attempt write to route-discovery-19-05-07-1448.json
+2019-05-07 15:48:59,840 - INFO - route-discovery-19-05-07-1448.json created.
+2019-05-07 15:49:00,014 - INFO - ==== End route-discovery.py ====
+2019-05-07 15:57:53,523 - INFO - ==== Start route-discovery.py ====
+2019-05-07 15:57:53,523 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 15:57:53,524 - INFO - Successfully retrieved router structure
+2019-05-07 15:57:53,525 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 15:57:53,525 - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:57:54,609 - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-07 15:58:03,373 - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-07 16:06:43,451 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:06:43,451 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 16:06:43,452 - INFO - Successfully retrieved router structure
+2019-05-07 16:06:43,452 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 16:06:43,452 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:06:44,537 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:06:55,320 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 16:11:05,838 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:11:05,838 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 16:11:05,839 - INFO - Successfully retrieved router structure
+2019-05-07 16:11:05,839 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 16:11:05,839 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:11:06,926 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:11:17,690 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 16:11:43,832 - INFO - Attempt write to route-discovery-19-05-07-1511.json
+2019-05-07 16:11:43,836 - INFO - route-discovery-19-05-07-1511.json created.
+2019-05-07 16:11:43,932 - INFO - ==== End route-discovery.py ====
+2019-05-07 16:14:40,254 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:14:40,255 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 16:14:40,255 - INFO - Successfully retrieved router structure
+2019-05-07 16:14:40,256 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 16:14:40,256 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:14:41,338 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:14:52,110 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 16:14:55,334 - INFO - Attempt write to route-discovery-19-05-07-1514.json
+2019-05-07 16:14:55,338 - INFO - route-discovery-19-05-07-1514.json created.
+2019-05-07 16:14:55,944 - INFO - ==== End route-discovery.py ====
+2019-05-07 16:16:23,768 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:16:23,769 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 16:16:23,769 - INFO - Successfully retrieved router structure
+2019-05-07 16:16:23,770 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 16:16:23,770 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:16:24,855 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:16:35,648 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 16:16:38,896 - INFO - Attempt write to route-discovery-19-05-07-1516.json
+2019-05-07 16:16:38,900 - INFO - route-discovery-19-05-07-1516.json created.
+2019-05-07 16:16:39,326 - INFO - ==== End route-discovery.py ====
+2019-05-07 16:19:21,777 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:19:21,778 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 16:19:21,778 - INFO - Successfully retrieved router structure
+2019-05-07 16:19:21,779 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 16:19:21,779 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:19:22,865 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 16:19:33,650 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 16:19:36,793 - INFO - Attempt write to route-discovery-19-05-07-1519.json
+2019-05-07 16:19:36,799 - INFO - route-discovery-19-05-07-1519.json created.
+2019-05-07 16:19:37,036 - INFO - ==== End route-discovery.py ====
+2019-05-07 16:44:35,183 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:45:47,479 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:48:35,459 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:50:28,053 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:53:06,824 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:54:53,333 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:55:38,760 - INFO - ==== Start route-discovery.py ====
+2019-05-07 16:55:54,310 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:36:28,824 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:36:58,285 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:37:28,973 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:37:56,600 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:38:12,720 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:44:28,652 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:44:59,569 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:45:11,301 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:45:23,352 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:46:35,829 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:46:50,360 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:47:08,472 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:47:30,108 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:47:42,043 - INFO - ==== Start route-discovery.py ====
+2019-05-07 17:48:28,293 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:02:49,315 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:02:49,316 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:02:49,317 - INFO - Successfully retrieved router structure
+2019-05-07 18:02:49,318 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:02:49,318 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:02:50,405 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:03:01,176 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:05:41,958 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:05:41,959 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:05:41,959 - INFO - Successfully retrieved router structure
+2019-05-07 18:05:41,960 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:05:41,960 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:05:43,045 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:05:53,830 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:05:57,084 - INFO - Attempt write to route-discovery-19-05-07-1705.json
+2019-05-07 18:05:57,088 - INFO - route-discovery-19-05-07-1705.json created.
+2019-05-07 18:05:57,170 - INFO - ==== End route-discovery.py ====
+2019-05-07 18:12:36,051 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:12:36,052 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:12:36,052 - INFO - Successfully retrieved router structure
+2019-05-07 18:12:36,053 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:12:36,053 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:12:39,815 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:12:50,672 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:14:24,244 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:14:24,244 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:14:24,245 - INFO - Successfully retrieved router structure
+2019-05-07 18:14:24,246 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:14:24,247 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:14:25,343 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:14:36,169 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:15:31,011 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:15:31,013 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:15:31,013 - INFO - Successfully retrieved router structure
+2019-05-07 18:15:31,014 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:15:31,014 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:15:32,100 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:15:42,898 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:18:31,624 - INFO - Attempt write to route-discovery-19-05-07-1718.json
+2019-05-07 18:18:31,628 - INFO - route-discovery-19-05-07-1718.json created.
+2019-05-07 18:18:31,710 - INFO - ==== End route-discovery.py ====
+2019-05-07 18:20:19,760 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:20:19,760 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:20:19,761 - INFO - Successfully retrieved router structure
+2019-05-07 18:20:19,762 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:20:19,762 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:20:20,846 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:20:31,633 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:20:37,258 - INFO - Attempt write to route-discovery-19-05-07-1720.json
+2019-05-07 18:20:37,263 - INFO - route-discovery-19-05-07-1720.json created.
+2019-05-07 18:20:37,426 - INFO - ==== End route-discovery.py ====
+2019-05-07 18:32:17,850 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:32:17,853 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:32:17,853 - INFO - Successfully retrieved router structure
+2019-05-07 18:32:17,854 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:32:17,854 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:32:18,941 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:32:29,734 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:33:19,114 - INFO - Attempt write to route-discovery-19-05-07-1733.json
+2019-05-07 18:33:19,133 - INFO - route-discovery-19-05-07-1733.json created.
+2019-05-07 18:33:19,276 - INFO - ==== End route-discovery.py ====
+2019-05-07 18:34:44,109 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:34:44,111 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:34:44,111 - INFO - Successfully retrieved router structure
+2019-05-07 18:34:44,112 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:34:44,112 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:34:45,210 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:34:55,998 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:36:14,061 - INFO - Attempt write to route-discovery-19-05-07-1736.json
+2019-05-07 18:36:14,069 - INFO - route-discovery-19-05-07-1736.json created.
+2019-05-07 18:36:14,171 - INFO - ==== End route-discovery.py ====
+2019-05-07 18:42:13,183 - INFO - ==== Start route-discovery.py ====
+2019-05-07 18:42:13,184 - INFO - Opening router structure file router-inventory-structure.json
+2019-05-07 18:42:13,184 - INFO - Successfully retrieved router structure
+2019-05-07 18:42:13,185 - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-07 18:42:13,185 - INFO - Attempting to connect to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:42:14,268 - WARNING - Failed to connect over SSH to NTGH-A5-ASR-R3-78.102
+2019-05-07 18:42:25,041 - INFO - Successfully connected to NTGH-A5-ASR-R3-78.102 over Telnet
+2019-05-07 18:43:07,979 - INFO - Attempt write to route-discovery-19-05-07-1743.json
+2019-05-07 18:43:07,983 - INFO - route-discovery-19-05-07-1743.json created.
+2019-05-07 18:43:08,077 - INFO - ==== End route-discovery.py ====

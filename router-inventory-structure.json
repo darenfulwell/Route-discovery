@@ -1,20 +1,26 @@
 {
 	"device-ID": "",
+	"device-IP": "",
+	"device-type": "",
+	"session-type": "",
 	"last-updated": "NEVER",
 	"interfaces": [{
 		"interface": "",
 		"description": "",
-		"ip-address": "",
-		"subnet": "",
-		"mask": "",
+		"speed":"",
+		"mtu":"",
+		"ip-addresses": [],
+		"prefixes": [],
+		"vrf": "",
 		"statics": "",
 		"OSPF": "",
 		"EIGRP": ""
 	}],
 	"statics": [{
 		"subnet": "",
-		"mask": "",
-		"next-hop": ""
+		"prefix": "",
+		"next-hop": "",
+		"AD": 1
 	}],
 	"OSPF": [{
 		"process-ID": 0,
