@@ -4,7 +4,7 @@
 	"device-type": "",
 	"session-type": "",
 	"last-updated": "NEVER",
-	"interfaces": [{
+	"ip-interfaces": [{
 		"interface": "",
 		"description": "",
 		"speed":"",
@@ -33,7 +33,8 @@
 				"neighbours": [{
 					"router-ID": "",
 					"next-hop": "",
-					"device-name": ""
+					"device-name": "",
+					"state": ""
 				}]
 			}]
 		}],

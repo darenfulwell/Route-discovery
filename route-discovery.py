@@ -42,6 +42,42 @@ router_list_file_prefix = "route-discovery-"
 input_filename=""
 load_file=False
 
+# Function to convert from wildcard to subnet mask and back
+def wildcard_to_subnet_mask (thiswildcard):
+	wc=thiswildcard.split(".")
+	nm=[]
+	for i in wc:
+		nm.append(str(255-int(i)))
+	mask=""
+	for i in nm:
+		mask+=i+"."
+	return mask[:-1]
+	
+# Function to convert from wildcard or subnet mask to prefix length
+def mask_to_prefix (thismask):
+	prefix_len=0
+	if thismask!="0.0.0.0":
+		thismask_bin=""
+		for octet in thismask.split('.'):
+			thismask_bin+=format(int(octet),'08b')
+		first_digit=thismask_bin[0]
+		while thismask_bin:
+			if thismask_bin[0]==first_digit:
+				prefix_len+=1
+			else:
+				break
+			thismask_bin=thismask_bin[1:]
+	return(prefix_len)
+	
+# Function to convert from prefix length to subnet mask
+def prefix_to_mask (thisprefix):
+	subnet_bin=(thisprefix*'1')+((32-thisprefix)*'0')
+	subnet_dec=""
+	while subnet_bin:
+		subnet_dec+=(str(int(subnet_bin[:8],2))+'.')
+		subnet_bin=subnet_bin[8:]
+	return (subnet_dec[:-1])
+
 # Function to determine subnet from interface IP and prefix
 def subnet_from_ip_and_mask (ip_address, prefix):
 	prefix_len=int(str(prefix).strip('/'))
@@ -138,7 +174,7 @@ def connect_to (thisrouter,thisusername,thispassword):
 		return(thisconnection)
 
 # Function to fetch state from router and parse it
-def fetch_router_state (thisrouter):
+def fetch_ios_state (thisrouter):
 	logger.info("Attempting to connect to %s",thisrouter["device-ID"])
 	connection=connect_to (thisrouter,username,password)
 	if connection != False:
@@ -146,8 +182,8 @@ def fetch_router_state (thisrouter):
 		command="show ip int"
 		connection.find_prompt()
 		output=connection.send_command(command,use_textfsm=True)
-		interface=thisrouter['interfaces'][0]
-		thisrouter['interfaces']=[]
+		interface=thisrouter['ip-interfaces'][0]
+		thisrouter['ip-interfaces']=[]
 		for intf in output:
 			if len(intf['ipaddr']) > 0:
 				interface['interface']=intf['intf']
@@ -155,9 +191,9 @@ def fetch_router_state (thisrouter):
 				interface['prefixes']=intf['mask']
 				interface['vrf']=intf['vrf']
 				interface['statics']="TBC"
-				interface['OSPF']="TBC"
-				interface['EIGRP']="TBC"
-				thisrouter['interfaces'].append(copy.deepcopy(interface))
+				interface['OSPF']=False
+				interface['EIGRP']=False
+				thisrouter['ip-interfaces'].append(copy.deepcopy(interface))
 
 		# Fetch extra interface info and add to router record
 		command="show int"
@@ -165,7 +201,7 @@ def fetch_router_state (thisrouter):
 		output=connection.send_command(command,use_textfsm=True)
 
 		for intf in output:
-			for i in thisrouter['interfaces']:
+			for i in thisrouter['ip-interfaces']:
 				if i['interface']==intf['interface']:
 					i['description']=intf['description']
 					i['speed']=intf['speed']
@@ -187,7 +223,7 @@ def fetch_router_state (thisrouter):
 				thisrouter['statics'].append(copy.deepcopy(newstatic))
 
 		# Check for static routing over interfaces
-		for intf in thisrouter['interfaces']:
+		for intf in thisrouter['ip-interfaces']:
 			for x in range(len(intf['ip-addresses'])):
 				for route in thisrouter['statics']:
 					if match_host_and_interface(route['next-hop'],intf['ip-addresses'][x],intf['prefixes'][x]):
@@ -195,7 +231,100 @@ def fetch_router_state (thisrouter):
 						break
 					else:
 						intf['statics']=False
-				
+						
+		# Fetch OSPF details
+		command="show ip ospf neigh"
+		connection.find_prompt()
+		neighbouroutput=connection.send_command(command,use_textfsm=True)
+		
+		command="show ip ospf | inc Routing"
+		connection.find_prompt()
+		output=connection.send_command(command,use_textfsm=True)
+		process_output=output.replace('"','').split()
+		thisprocess=thisrouter['OSPF'][0]
+		thisrouter['OSPF']=[]
+		while process_output:
+			thisprocess['process-ID']=process_output[3]
+			thisprocess['router-ID']=process_output[6]
+			
+			command="show run part router ospf "+thisprocess['process-ID']
+			connection.find_prompt()
+			output=connection.send_command(command,use_textfsm=True)
+			config_output=output.strip().split("\n")
+			thisarea=thisprocess['areas'][0]
+			thisarea['interfaces']=[]
+			thisprocess['areas']=[]
+			thisredist=thisprocess['redist'][0]
+			thisprocess['redist']=[]
+
+			while config_output:
+				if config_output[0].find("redistribute") != -1:
+					thisredist['config']=config_output[0].strip()
+					fragredist=thisredist['config'].split(' ')
+					thisredist['protocol']=fragredist[1]
+					if fragredist[1] != 'static':
+						thisredist['protocol']+=" "+fragredist[2]
+					try:
+						thisredist['route-map']=fragredist[(fragredist.index('route-map'))+1]
+					except:
+						thisredist['route-map']='N/A'
+					
+					thisprocess['redist'].append(copy.deepcopy(thisredist))
+				elif config_output[0].find("network ") != -1: 
+					fragnetwork=config_output[0].strip().split(" ")
+					areanum=fragnetwork[(fragnetwork.index('area'))+1]
+					thisarea['area-number']=areanum
+					thisarea['interfaces']=[]
+					
+					areapreviouslyfound=False
+					for area in thisprocess['areas']:
+						if area['area-number']==areanum:
+							areapreviouslyfound=True
+							break
+					if not areapreviouslyfound:
+						thisprocess['areas'].append(copy.deepcopy(thisarea))
+					
+					# assume area found and added to add interfaces, change thisarea to point at record in thisprocess
+					thisarea={}
+					for thisarea in thisprocess['areas']:
+						if thisarea['area-number']==areanum:
+							break
+					
+					thisint={'name':'','neighbours':[],'status':[]} 
+					areanetwork=fragnetwork[(fragnetwork.index('network'))+1]
+					areamask=wildcard_to_subnet_mask(fragnetwork[(fragnetwork.index('network'))+2])
+					Found=False
+					for loopint in thisrouter['ip-interfaces']:
+						for loopaddr in loopint['ip-addresses']:
+							if not(loopint['OSPF']):
+								Found=match_host_and_interface (loopaddr,areanetwork,mask_to_prefix(areamask))
+								if Found:
+									loopint['OSPF']=True
+									break
+							
+						if Found:
+							thisint['name']=loopint['interface']
+							for neigh in neighbouroutput:
+								if neigh['interface']==thisint['name']:
+									neighbour={}
+									neighbour['router-ID']=neigh['neighbor_id']
+									neighbour['next-hop']=neigh['address']
+									neighbour['device-name']=''
+									neighbour['state']=neigh['state']
+									thisint['neighbours'].append(neighbour)
+							thisint['status']=''
+							thisarea['interfaces'].append(thisint)
+							thisint={}
+							thisarea={}
+
+				del(config_output[0])
+			
+			thisrouter['OSPF'].append(copy.deepcopy(thisprocess))
+			thisarea={'area-number':'','interfaces':[{'name': '', 'neighbours': [{}], 'status': ''}]}
+			thisredist={'protocol':'','route-map':'','config':''}
+			thisprocess={'process-ID':'','router-ID':'','areas':[thisarea],'redist':[thisredist]}
+			del(process_output[0:7])
+					
 		connection.disconnect()
 		thisrouter["last-updated"]=time.ctime()
 
@@ -249,6 +378,7 @@ def read_router_state_file (thisfilename):
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
+
 if (load_file):
 	try:
 		logger.info("Finding last route-discovery file")
@@ -273,10 +403,8 @@ else:
 
 		# Retrieve router state and update router records
 		for router in router_list:
-			if router['device-type']=="RTR":
-				fetch_router_state(router)
-			elif router['device-type']=="SW":
-				fetch_router_state(router)
+			if router['device-type']=="IOS":
+				fetch_ios_state(router)
 			elif router['device-type']=="ASA":
 				fetch_asa_state(router)
 			

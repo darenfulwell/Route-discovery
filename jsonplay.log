@@ -1,0 +1,142 @@
+2019-05-03 21:16:41,676 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 21:16:41,676 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 21:16:41,677 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 21:16:41,677 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 21:16:41,677 - __main__ - INFO - Fetching info for NSECH-LV0-MER-VSS-78.97
+2019-05-03 21:17:06,954 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97
+2019-05-03 21:17:07,956 - __main__ - INFO - Fetching info for NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:17:09,040 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:17:17,808 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:17:18,733 - __main__ - INFO - Fetching info for NTGH-NHS-VPN-1-16
+2019-05-03 21:17:18,735 - __main__ - INFO - Fetching info for NTGH-COIN-PAC-R2
+2019-05-03 21:17:19,824 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 21:17:32,883 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 21:17:32,883 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 21:23:10,763 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 21:23:10,764 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 21:23:10,764 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 21:23:10,765 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 21:23:10,765 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 21:23:35,960 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 21:23:36,945 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:23:38,028 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:23:46,794 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 21:23:47,717 - __main__ - INFO - Fetching info for NTGH-NHS-VPN-1-16
+2019-05-03 21:23:47,718 - __main__ - INFO - Attempting to connect to NTGH-COIN-PAC-R2
+2019-05-03 21:23:48,804 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 21:24:01,866 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 21:24:01,866 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 21:34:37,434 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 21:34:37,434 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 21:34:37,435 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 21:34:37,436 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 21:34:37,436 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 21:35:02,547 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 21:35:03,555 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:35:04,642 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 21:35:13,409 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 21:35:14,330 - __main__ - INFO - Not yet attempting to connect to NTGH-NHS-VPN-1-16
+2019-05-03 21:35:14,331 - __main__ - INFO - Attempting to connect to NTGH-COIN-PAC-R2
+2019-05-03 21:35:15,418 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 21:35:28,475 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 21:35:28,476 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:00:38,073 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:00:38,073 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:00:38,074 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:00:38,074 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:00:38,075 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 22:01:03,190 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 22:02:19,828 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:02:19,829 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:02:19,829 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:02:19,830 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:02:19,830 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 22:02:44,915 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 22:02:45,768 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:02:46,855 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:02:55,618 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 22:02:56,543 - __main__ - INFO - Not yet attempting to connect to NTGH-NHS-VPN-1-16
+2019-05-03 22:02:56,545 - __main__ - INFO - Attempting to connect to NTGH-COIN-PAC-R2
+2019-05-03 22:02:57,637 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 22:03:10,690 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 22:03:10,691 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:03:47,078 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:03:47,079 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:03:47,079 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:03:47,080 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:03:47,080 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 22:04:12,218 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 22:04:13,170 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:04:14,258 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:04:23,023 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 22:04:23,957 - __main__ - INFO - Not yet attempting to connect to NTGH-NHS-VPN-1-16
+2019-05-03 22:04:23,959 - __main__ - INFO - Attempting to connect to NTGH-COIN-PAC-R2
+2019-05-03 22:04:25,049 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 22:04:38,112 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 22:04:38,114 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:55:23,503 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:55:23,504 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:55:23,505 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:55:23,506 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:55:23,507 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER-VSS-78.97
+2019-05-03 22:55:49,198 - __main__ - INFO - Successfully connected to NSECH-LV0-MER-VSS-78.97 over SSH
+2019-05-03 22:55:50,120 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:55:51,247 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:56:00,076 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 22:56:00,999 - __main__ - INFO - Not yet attempting to connect to NTGH-NHS-VPN-1-16
+2019-05-03 22:56:01,012 - __main__ - INFO - Attempting to connect to NTGH-COIN-PAC-R2
+2019-05-03 22:56:02,126 - __main__ - WARNING - Failed to connect over SSH to NTGH-COIN-PAC-R2
+2019-05-03 22:56:15,199 - __main__ - WARNING - Failed to connect over Telnet to NTGH-COIN-PAC-R2
+2019-05-03 22:56:15,200 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:57:00,327 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:57:00,328 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:57:00,329 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:57:00,332 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:57:00,333 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:57:01,453 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:57:10,755 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 22:57:11,697 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:57:38,678 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:57:38,679 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:57:38,679 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:57:38,680 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 22:59:03,910 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 22:59:03,911 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 22:59:03,911 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 22:59:03,912 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 22:59:03,913 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:59:05,019 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 22:59:13,808 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 22:59:14,732 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 23:00:08,289 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 23:00:08,290 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:00:08,291 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:00:08,293 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:00:08,295 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:00:09,402 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:00:18,185 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:00:19,112 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 23:01:20,075 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 23:01:20,076 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:01:20,078 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:01:20,081 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:01:20,082 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:01:21,191 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:01:29,986 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:01:35,651 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 23:03:27,448 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 23:03:27,449 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:03:27,450 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:03:27,451 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:03:27,452 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:03:28,567 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:03:37,362 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:03:47,715 - __main__ - INFO - ==== End jsonplay.py ====
+2019-05-03 23:05:40,865 - __main__ - INFO - ==== Start jsonplay.py ====
+2019-05-03 23:05:40,866 - __main__ - INFO - Opening router structure file router-inventory-structure.json
+2019-05-03 23:05:40,868 - __main__ - INFO - Successfully retrieved router structure
+2019-05-03 23:05:40,871 - __main__ - INFO - Successfully retrieved initial inventory info from router-list.csv
+2019-05-03 23:05:40,872 - __main__ - INFO - Attempting to connect to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:05:41,977 - __main__ - WARNING - Failed to connect over SSH to NSECH-LV0-MER1-ASR-R1-78.100
+2019-05-03 23:05:50,776 - __main__ - INFO - Successfully connected to NSECH-LV0-MER1-ASR-R1-78.100 over Telnet
+2019-05-03 23:05:51,732 - __main__ - INFO - ==== End jsonplay.py ====
